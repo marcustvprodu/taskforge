@@ -1,4 +1,4 @@
-# TaskForge
+# src.TaskForge
 
 Projeto do curso **Do Código ao Contrato**. Uma API de tarefas construída aula a aula, começando por um app de console e virando uma API completa que roda na internet.
 
@@ -12,15 +12,15 @@ Este repositório é o seu. Você vai fazer as entregas de cada aula aqui, por P
 
 ## Como rodar
 
-No IntelliJ: abra o arquivo `TaskForge.java` e clique em **Run**.
+No IntelliJ: abra o arquivo `src.TaskForge.java` e clique em **Run**.
 
 No terminal, dentro da pasta do projeto:
 
 ```bash
-java TaskForge.java
+java src.TaskForge.java
 ```
 
-Você vai ver o TaskForge pedir os dados de uma tarefa e imprimir um cartão com ela.
+Você vai ver o src.TaskForge pedir os dados de uma tarefa e imprimir um cartão com ela.
 
 ## Como entregar as tarefas
 
