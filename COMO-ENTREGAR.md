@@ -8,7 +8,7 @@ Este é o mesmo fluxo que você vai usar trabalhando em qualquer empresa. Parece
 
 Você não trabalha no repositório-modelo do professor. Você cria uma cópia sua.
 
-1. Abra o repositório-modelo do TaskForge no GitHub (link que o professor enviou).
+1. Abra o repositório-modelo do src.TaskForge no GitHub (link que o professor enviou).
 2. Clique no botão verde **"Use this template"** e depois em **"Create a new repository"**.
 3. Dê um nome (pode ser `taskforge`) e deixe a visibilidade em **Public**. É importante ser público: é assim que o professor consegue ver e revisar suas entregas sem você precisar dar permissão, e é isso que vira o seu portfólio.
 4. Clique em **Create repository**. Pronto, agora esse repositório é seu.
@@ -40,7 +40,7 @@ git checkout -b aula-01-1-desafio
 
 ### 2. Faça o código
 
-Edite o `TaskForge.java` e resolva o desafio da aula.
+Edite o `src.TaskForge.java` e resolva o desafio da aula.
 
 ### 3. Salve no Git
 
