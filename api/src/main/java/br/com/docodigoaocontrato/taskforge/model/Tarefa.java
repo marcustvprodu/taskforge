@@ -1,13 +1,26 @@
-package br.com.docodigoaocontrato.taskforge.dto;
+package br.com.docodigoaocontrato.taskforge.model;
 
-public class TarefaDTO {
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
+public class Tarefa {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
     private String nome;
     private int prioridade;
     private boolean concluida;
 
-    public TarefaDTO(int id, String nome, int prioridade, boolean concluida) {
+
+    public Tarefa() {
+    }
+
+    public Tarefa(String nome, int prioridade, boolean concluida) {
         this.nome = nome;
         this.prioridade = prioridade;
         this.concluida = concluida;
